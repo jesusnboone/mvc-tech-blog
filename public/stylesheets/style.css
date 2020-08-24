@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  align-content: center;
+  text-align: center;
 }
 
 body, html {
@@ -8,6 +10,7 @@ body, html {
   margin: 0;
   font-family: sans-serif;
   color: #333;
+  background: blanchedalmond;
 }
 
 a {
@@ -15,10 +18,6 @@ a {
   color: black;
   font-weight: bold;
   transition: color .1s;
-}
-
-a:hover {
-  color: black;
 }
 
 button {
@@ -31,11 +30,6 @@ button {
   cursor: pointer;
   border-radius: 5px;
 }
-
-button:hover {
-  background-color: black;
-}
-
 .post-list {
   margin: 0;
   padding: 0;
@@ -104,19 +98,6 @@ main {
   margin-left: 16px;
 }
 
-.btn-no-style:hover {
-  background: none;
-  color: black;
-}
-
-.delete-post-btn {
-  background-color: #d41414;
-}
-
-.delete-post-btn:hover {
-  background-color: #ff643d;
-}
-
 .post {
   margin-bottom: 2%;
   line-height: 150%;
@@ -131,15 +112,6 @@ main {
 .edit-link {
   display: block;
   margin: -1.5% 0 2% 0;
-}
-
-.upvote-btn {
-  background-color: #197d0f;
-  transition: background-color .1s;
-}
-
-.upvote-btn:hover {
-  background-color: #1f9c13;
 }
 
 .comment-form {
